@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content="Education for the 22nd century">
+        <meta name="keywords" content="Island Navigation Corporation International Limited, IS Nav, Island Navigation Corporation">
+        <meta name="author" content="Haihao Liu">
+
+        <link rel="stylesheet" href="shared.css"/>
+        <link rel="stylesheet" href="index.css"/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+        <script src="shared.js" defer></script>
+        <script src="index.js" defer></script>
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        
+        <!-- Icon Sources -->
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+        <title>Home | Ternity Education</title>
+    </head>
+    <body>
+        <!-- Go to Top Button -->
+        <button title="Go to Top" id="myBtn" onclick="topFunction()">
+            <ion-icon name="arrow-up-outline" class="up-icon"></ion-icon>
+        </button>
+
+        <!-- Navbar -->
+        <nav>
+            <a href="index.html"><img src="img/header_logo.svg" alt="logo" class="logo"></a>
+            
+            <ul class = "nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#consult" class="nav-link">Consult</a></li>
+                <li><a href="#tutor" class="nav-link">Tutor</a></li>
+                <li><a href="#community" class="nav-link">Community</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            
+            <div class="lang-sel">
+                <div class="curr-lang">EN</div>
+                <div class="lang-opts">
+                    <a href="index_cn.html">简</a>
+                    <a href="index_hk.html">繁</a>
+                </div>
+            </div>
+
+            <button id="burger-menu">
+                <ion-icon class="bars" name="menu-outline"></ion-icon>
+            </button>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class = "hero" id = "home">
+            <div class = "hero-container">
+                <video width="100%" height="100%" autoplay loop muted playsinline>
+                    <source src="herovideo.webm" type="video/webm; codecs=vp9,vorbis">
+                    <source src="herovideo.mp4" type="video/mp4">
+                </video>
+                <div class = "hero-overlay">
+                    <h2>This website is still under construction, please come back later!</h2>
+                    <p>Questions may be directed to <a href="mailto:contact@ternity.education">contact@ternity.education</a></p>
+                </div>
+            </div>
+        </section>
+<!--
+        <!-- About Us section XXX>
+        <section id = "about">
+
+            <div class = "section-title">
+                <h1>About Us</h1>
+            </div>
+
+            <div class="counter-container">
+                <div class="counter-box">
+                    <div class="counter" id="counter1" data-count="20">20</div>
+                    <div class="counter-text">Number of Vessels</div>
+                </div>
+                <div class="counter-box">
+                    <div class="counter" id="counter2" data-count="1921130">1,921,130</div>
+                    <div class="counter-text">Total DWT</div>
+                </div>
+                <div class="counter-box">
+                    <div class="counter" id="counter3" data-count="35">35</div>
+                    <div class="counter-text">Number of Employees</div>
+                </div>
+            </div>
+
+            <div class="about-container">
+                <div class="about">
+                        <img src="img/history-photo.png" alt="About Image">
+                    <div class="about-info">
+                        <h2><img src="img/about-icons/history-fill.svg" alt="History Icon">History</h2>
+                        <p>The Tung Group is a multi-national shipping enterprise founded by the Chinese entre&shy;preneur, the late Mr. C. Y. Tung, more than 80 years ago. The Group has extensive experience in owning, operating, and managing a large diversity of vessels, including especially oil tankers, dry bulk carriers, LPG carriers, container vessels, and passenger ships. With the advent of containerization in 1969, our founder established Orient Overseas Container Line (OOCL) and listed the holding company Orient Over&shy;seas on the Hong Kong Stock Exchange in 1971. The Tung Family remained the major shareholder of Orient Over&shy;seas for almost 45 years until 2018. Over the years, the Group has been recognized as being in the forefront of the development of marine technology and is well known for its innovations in business development. The Group was among the first in pioneering very large crude carriers (VLCC) and was the first to bring container shipping to the Pacific region.</p>
+                    </div>
+                </div>
+                <div class="about">
+                    <img src="img/mission-photo.png" alt="Who we are Image">
+                    <div class="about-info">
+                        <h2><img src="img/about-icons/ship-fill.svg" alt="Who we are Icon">Who We Are</h2>
+                        <p>Island Navigation has represented the Tung Group in the management of building, owning, or operating over 600 commercial vessels including general cargo vessels, tankers (Energy series, CYS series, Brazilian series), bulk carriers (Atlantic series, Pacific series), OBOs, passenger vessels, and LPG vessels. Today, Island Navi&shy;gation Corp&shy;oration Inter&shy;national Limited (INC) continues to represent the Tung Group in the owning and operating of dry bulk carriers and oil tankers. INC is currently active predominantly in the Capesize sector in the dry market, and MR sector in the product tanker market.</p>
+                    </div>
+                </div>
+                <div class="about">
+                    <img src="img/home7.png" alt="Mission Image">
+                    <div class="about-info">
+                        <h2><img src="img/about-icons/compass-fill.svg" alt="Mission Icon">Our Mission</h2>
+                        <p>The shipping industry has undergone decades of turbulent transformation. The business today is more competitive than ever before. Island Navi&shy;gation continues to grow and manage its business by focusing on quality technical and operational management, prudent capital management, and balancing the characteristically opportunistic nature of the wet and dry bulk business together with concerted efforts at niche building and partnership building.The Island Navi&shy;gation Corp&shy;oration group, based in Hong Kong, remains committed to delivering quality services to its customers worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partners section XXX>
+        <section id = "partners">
+            <div class = "section-title">
+                <h1>Our Business Partners</h1>
+            </div>
+            
+            <div class="swiper-container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/abs.png" alt="ABS logo">
+                                    <h4>American Bureau of Shipping</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/asahi.png" alt="Asahi MOL Tankers Logo">
+                                    <h4>Asahi MOL Tankers</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/baowu.png" alt="China Baowu Steel Group Corporation Limited Logo">
+                                    <h4>China Baowu Steel Group Corporation Limited</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/bernhard.png" alt="Bernhard Schulte Ship Management Logo">
+                                    <h4>Bernhard Schulte Ship Management</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/drylog.png" alt="Drylog Limited Logo">
+                                    <h4>Drylog Limited</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/maersk.png" alt="Maersk Tankers A/S Logo">
+                                    <h4>Maersk Tankers A/S</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/osm.png" alt="OSM Thome Logo">
+                                    <h4>OSM Thome</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/smc.png" alt="Schulte Marine Concept Logo">
+                                    <h4>Schulte Marine Concept</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/scorpio.png" alt="Scorpio MR Pool Limited Logo">
+                                    <h4>Scorpio MR Pool Limited</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/ssm.png" alt="Steamship Mutual Management Limited Logo">
+                                    <h4>Steamship Mutual Management Limited</h4>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <a href="#">
+                                <div class="slide-card">
+                                    <img src="img/partners/zenith.png" alt="Zenith Gemi İşletmeciliği A.Ş. Logo">
+                                    <h4>Zenith Gemi İşletmeciliği A.Ş.</h4>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- Fleet section XXX>
+        <section id = "fleet">
+            <div class = "section-title">
+                <h1>Fleet Overview</h1>
+            </div>
+
+            <div class="fleetoverview-info">
+                <p>The Island Navigation Group of companies is an owner and operator of dry bulk and tanker vessels, transporting industrial goods such as minerals, ores, petroleum products and chemical products around the world. The Group operates its owned and controlled vessels by way of pooling, period charters, and Contract of Affreightments.
+                </p>
+            </div>
+            <div class="fleet-overview">
+                <div class="overview-card">
+                    <a href="fleet_en.html?type=tanker"><img src="img/fleet/tanker/Island_Express.png" alt="Island Express Ship image" class="overview-img"></a>
+                    <div class="overview-name">
+                        <a href="fleet_en.html?type=tanker"><h4>Tankers</h4></a>
+                    </div>
+                </div>
+                <div class="overview-card">
+                    <a href="fleet_en.html?type=drybulk"><img src="img/fleet/drybulk/Bulk_Geneva.png" alt="Bulk Geneva Ship image" class="overview-img"></a>
+                    <div class="overview-name">
+                        <a href="fleet_en.html?type=drybulk"><h4>Dry Bulk</h4></a>
+                    </div>
+                </div>
+            </div>
+            <a href="fleet_en.html"><h2>See All</h2></a>
+
+        </section>
+        <!-- Customers section XXX>
+        <section id = "community" class="customers">
+            <div class = "section-title">
+                <h1>Our Customers</h1>
+            </div>
+            <div class="customers-info">
+                <p>The Group, based in Hong Kong with a representative office in Tokyo, considers safe technical management and prudent risk management as its priorities.  Ship Management services are conducted through accredited third party ship managers based in Singapore and Turkey. The Group is also mindful of prudency in capital structure, and continues to be conservative in balance sheet management. With over 70 years of history, the objective of the Group continues to be building a sustainable business over the long term, and providing safe and quality transportation services to customers around the world. The Group considers its long term customers and partners a core element of success. 
+                </p>
+            </div>
+            <div class="customer-slider">
+                <div class="customer-slide">
+                    <img src="img/customers/ampol.png" alt="ampol">
+                    <img src="img/customers/baowu.png" alt="baowu">
+                    <img src="img/customers/bhp.png" alt="bhp">
+                    <img src="img/customers/bp.png" alt="bp">
+                    <img src="img/customers/chevron.png" alt="chevron">
+                    <img src="img/customers/cofco.png" alt="cofco">
+                    <img src="img/customers/cosmo.png" alt="cosmo">
+                    <img src="img/customers/eneos.png" alt="eneos">
+                    <img src="img/customers/fmg.png" alt="fmg">
+                    <img src="img/customers/idemitsu.png" alt="idemitsu">
+                    <img src="img/customers/mercuria.png" alt="mercuria">
+                    <img src="img/customers/perochina.png" alt="petrochina">
+                    <img src="img/customers/pmi.png" alt="pmi">
+                    <img src="img/customers/riotinto.png" alt="riotinto">
+                    <img src="img/customers/royhill.png" alt="royhill">
+                    <img src="img/customers/shell.png" alt="shell">
+                    <img src="img/customers/shougang.png" alt="shougang">
+                    <img src="img/customers/sinopec.png" alt="sinopec">
+                    <img src="img/customers/skenergy.png" alt="skenergy">
+                    <img src="img/customers/trafigura.png" alt="trafigura">
+                    <img src="img/customers/vitol.png" alt="vitol">
+                </div>
+                <div class="customer-slide">
+                    <img src="img/customers/ampol.png" alt="ampol">
+                    <img src="img/customers/baowu.png" alt="baowu">
+                    <img src="img/customers/bhp.png" alt="bhp">
+                    <img src="img/customers/bp.png" alt="bp">
+                    <img src="img/customers/chevron.png" alt="chevron">
+                    <img src="img/customers/cofco.png" alt="cofco">
+                    <img src="img/customers/cosmo.png" alt="cosmo">
+                    <img src="img/customers/eneos.png" alt="eneos">
+                    <img src="img/customers/fmg.png" alt="fmg">
+                    <img src="img/customers/idemitsu.png" alt="idemitsu">
+                    <img src="img/customers/mercuria.png" alt="mercuria">
+                    <img src="img/customers/perochina.png" alt="petrochina">
+                    <img src="img/customers/pmi.png" alt="pmi">
+                    <img src="img/customers/riotinto.png" alt="riotinto">
+                    <img src="img/customers/royhill.png" alt="royhill">
+                    <img src="img/customers/shell.png" alt="shell">
+                    <img src="img/customers/shougang.png" alt="shougang">
+                    <img src="img/customers/sinopec.png" alt="sinopec">
+                    <img src="img/customers/skenergy.png" alt="skenergy">
+                    <img src="img/customers/trafigura.png" alt="trafigura">
+                    <img src="img/customers/vitol.png" alt="vitol">
+                </div>
+            </div> 
+        </section>
+
+        <!-- Partnerships section XXX>
+        <section id = "partnerships" class="partnerships">
+            <div class = "section-title">
+                <h1>Partnerships</h1>
+            </div>
+            <div class="memberships-container">
+                    <a href="https://www.bimco.org/"><img src="img/community/bimco.png" alt="Bimco Logo"></a>
+                    <a href="http://www.hksoa.org/"><img src="img/community/hk_shipowners.png" alt="Hong Kong Shipowners Association Logo"></a>
+                    <a href="https://www.intercargo.org/"><img src="img/community/intercargo.png" alt="Intercargo Logo"></a>
+                    <a href="https://www.intertanko.com/"><img src="img/community/intertanko.png" alt="Intertanko Logo"></a>
+                    <a href="https://www.hkmaritimemuseum.org/"><img src="img/community/maritime_museum.png" alt="Hong Kong Maritime Musuem Logo"></a>
+                    <a href="https://lms-icms.polyu.edu.hk/"><img src="img/community/polytechnic.png" alt="Polytechnic University Logo"></a>
+                    <a href="http://seatransport.org/"><img src="img/community/seatransport.png" alt="Sea Transport Logo"></a>
+                    <a href="https://en.sjtu.edu.cn/campus/museums/168"><img src="img/community/shanghai_jiaotong.png" alt="Shanghai Jiaotong University Logo"></a>
+                    <a href="http://tircsod.ouc.edu.cn/main.psp"><img src="img/community/sustainable_ocean.png" alt="Tung Group Sustainable Ocean Logo"></a>
+                    <a href="https://www.worldscale.co.uk/"><img src="img/community/worldscale.png" alt="Worldscale Logo"></a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact section XXX>
+        <section id = "contact">
+            <div class = "contact-container">
+                <img src = "img/contact-bg.png" class="contact-bg not-selectable" alt="Contact Background Image">
+                <div class = "contact-overlay"></div>
+                <div class = "address-container">
+                    <h2>Contact Us</h2>
+                    <p>33/F Harbour Centre</p>
+                    <p>25 Harbour Road</p>
+                    <p>Wanchai, Hong Kong</p>
+                </div>
+
+                <div class = contact-details-container>
+                    <div class = "contact-method">
+                        <ion-icon name="time-outline"></ion-icon>
+                        <div class = "contact-details">
+                            <p>Office Hours:</p>
+                            <span>Monday - Friday <br> 09:00 - 18:00</span>
+                        </div>
+                    </div>
+                    <div class = "contact-method">
+                        <ion-icon name="call-outline"></ion-icon>
+                        <div class = "contact-details">
+                            <p>Main Line:</p>
+                            <span>+852 2833 3222</span>
+                        </div>
+                    </div>
+                    <div class = "contact-method">
+                        <ion-icon name="file-tray-full-outline"></ion-icon>
+                        <div class = "contact-details">
+                            <p>Fax:</p>
+                            <span>+852 2827 0001</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="my-form" action="#" method="POST">
+                        <div class="form-control">
+                            <div class = "required-label">
+                                <label for="name">Name
+                                    <span class="required">*</span>
+                                </label>
+                            </div>
+                            <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter Your Name"
+                            class="input-field"
+                            required
+                            autocomplete="name"
+                            />
+                        </div>
+                        <div class="form-control">
+                            <div class = "required-label">
+                                <label for="email">Email
+                                    <span class="required">*</span>
+                                </label>
+                            </div>
+                            <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="Enter Your Email"
+                            class="input-field"
+                            required
+                            autocomplete="email"
+                            />
+                        </div>
+                        <div class="form-control">
+                            <label for="phone">Phone</label>
+                            <input
+                            type="text"
+                            id="phone"
+                            name="phone"
+                            placeholder="Enter Your Phone Number"
+                            class="input-field"
+                            autocomplete="mobile"
+                            ></input>
+                        </div>
+                        <div class="form-control">
+                            <label for="message">Message</label>
+                            <textarea
+                            id="message"
+                            cols="60"
+                            rows="6"
+                            placeholder="Enter Your Message"
+                            name="message"
+                            class="input-field"
+                            ></textarea>
+                        </div>
+                        <input
+                            type="submit"
+                            value="Submit"
+                            id="submit-btn"
+                            class="submit-btn"
+                        />
+                    </form>
+                    <div id="thank-you-message" style="display: none">
+                        <h4>Thank you for reaching out!</h4>
+                        <p>I will get back to you as soon as possible.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <!-- Footer XXX>
+        <footer>
+            <ul class = "footer-nav">
+                <li><a href="index_en.html#home">Home</a></li>
+                <li><a href="index_en.html#about">About Us</a></li>
+                <li><a href="index_en.html#partners">Partners</a></li>
+                <li><a href="index_en.html#fleet">Fleet</a></li>
+                <li><a href="index_en.html#community">Community</a></li>
+                <li><a href="index_en.html#contact">Contact Us</a></li>
+            </ul>
+
+            <div class="footer-container">
+                <div class = footer-full-logo>
+                    <img src="img/logo.png" alt="footer-logo" class = "footer-logo"/>
+                    <h1>Island Navigation Corporation International&nbsp;Limited</h1>
+                </div>
+                
+                <div class = socials-container>
+                    <a href="mailto: jaque.liu@isnav.com" target="_blank">
+                        <ion-icon name = "mail" class="socicon"
+                            aria-label="Email">
+                        </ion-icon>
+                    </a>
+                    
+                    <a href="#" target="_blank">
+                        <ion-icon name = "logo-linkedin" class="socicon"
+                            aria-label="LinkedIn">
+                        </ion-icon>
+                    </a>
+                        
+                    <a href="#" target="_blank">
+                        <ion-icon name = "logo-wechat" class="socicon"
+                            aria-label="WeChat">
+                        </ion-icon>
+                    </a>
+    
+                    <a href="#" target="_blank">
+                        <ion-icon name = "logo-youtube" class="socicon"
+                            aria-label="YouTube">
+                        </ion-icon>
+                    </a>
+                </div>
+            </div>
+        </footer>
+-->
+        <div class="copyright">
+            Copyright &copy 2023 Ternity Education. All rights reserved.
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    </body>
+</html>
