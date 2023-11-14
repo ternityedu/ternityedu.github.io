@@ -3,11 +3,11 @@
 .hero{
     padding: 0;
     position: relative;
-    margin-top: 5rem; /* See comment at fleet_style_en.css > #fleet */
+    margin-top: 7rem; /* See comment at fleet_style_en.css > #fleet */
 }
 
 .hero-container {
-    height: calc(90vh - 7rem);
+    height: calc(100vh - 9rem);
 }
 
 .hero-container video {
@@ -18,7 +18,7 @@
 
 .hero-overlay {
     position: absolute;
-    bottom: 66.66667%;
+    top: 30%;
     left: 0;
     padding: 0.5rem 2rem;
     background-color: white;
